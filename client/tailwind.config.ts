@@ -14,17 +14,18 @@ const baseColors = [
 ];
 
 const shadeMapping = {
-  "50": "900",
-  "100": "800",
-  "200": "700",
-  "300": "600",
-  "400": "500",
-  "500": "400",
-  "600": "300",
-  "700": "200",
-  "800": "100",
+  "50": "800",
+  "100": "700",
+  "200": "600",
+  "300": "500",
+  "400": "400",
+  "500": "300",
+  "600": "200",
+  "700": "100",
+  "800": "50",
   "900": "50",
 };
+
 
 const generateThemeObject = (colors: any, mapping: any, invert = false) => {
   const theme: any = {};
@@ -45,10 +46,11 @@ const themes = {
   light: {
     ...lightTheme,
     white: "#ffffff",
+    black: "#000000",
   },
   dark: {
     ...darkTheme,
-    white: colors.gray["950"],
+    white: colors.gray["900"],
     black: colors.gray["50"],
   },
 };
