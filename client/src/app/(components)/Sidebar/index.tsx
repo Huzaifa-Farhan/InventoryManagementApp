@@ -82,8 +82,8 @@ const Sidebar = () => {
         }`}
       >
         <Image
-          src="https://s3-inventorymanagement.s3.us-east-2.amazonaws.com/logo.png"
-          alt="edstock-logo"
+          src="https://s3-inventorymanagement-huzi.s3.us-east-1.amazonaws.com/logo.png"
+          alt="IMA-logo"
           width={27}
           height={27}
           className="rounded w-8"
