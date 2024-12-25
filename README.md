@@ -87,4 +87,4 @@ npm run dev
 * Download Server Assets
 
 ## Support
-Tutorial Video: Watch the YouTube tutorial for step-by-step instructions.[Link Here!](https://youtu.be/ddKQ8sZo_v8?si=0idf-ncs2-GLme9l)
+Tutorial Video: Watch the YouTube tutorial for step-by-step instructions. [Link Here!](https://youtu.be/ddKQ8sZo_v8?si=0idf-ncs2-GLme9l)
