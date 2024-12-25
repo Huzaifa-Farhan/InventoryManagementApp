@@ -72,6 +72,7 @@ npm run dev
 ```
 6. Deploy to AWS:
 * Follow the AWS EC2 Setup Guide for deployment.
+* [AWS commands](https://github.com/ed-roh/inventory-management/blob/master/server/aws-ec2-instructions.md)
 
 ## Resources
 1. Configuration Files:
