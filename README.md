@@ -1,5 +1,6 @@
 # Full-Stack Inventory Management Dashboard
- Full Stack Application & Deployed on AWS. This repository provides a comprehensive solution for building and deploying a scalable inventory management dashboard. 
+ Full Stack Application & Deployed on AWS. This repository provides a comprehensive solution for building and deploying a scalable inventory management dashboard.  
+Access the Full-Stack Inventory Management App by clicking [HERE!](https://main.dl2vtbwbu9zvg.amplifyapp.com/)
 
 ## Features
 * Inventory Tracking: Manage product data efficiently.
