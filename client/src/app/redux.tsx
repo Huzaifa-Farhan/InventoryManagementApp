@@ -67,7 +67,7 @@ export const makeStore = () => {
   });
 };
 
-// /* REDUX TYPES */
+/* REDUX TYPES */
 export type AppStore = ReturnType<typeof makeStore>;
 export type RootState = ReturnType<AppStore["getState"]>;
 export type AppDispatch = AppStore["dispatch"];
@@ -80,11 +80,11 @@ export default function StoreProvider({
 }: {
   children: React.ReactNode;
 }) {
-  const storeRef = useRef<AppStore | null>(null);  //next version issue here
+  const storeRef = useRef<AppStore | null>(null); // Updated initialization
   if (!storeRef.current) {
     storeRef.current = makeStore();
     setupListeners(storeRef.current.dispatch);
-  }  
+  }
   const persistor = persistStore(storeRef.current);
 
   return (
